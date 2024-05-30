@@ -9,7 +9,13 @@
     src: url("fonts/Pretendard-Regular.otf") format("opentype");
     /*src: url("fonts/Pretendard-Regular.ttf") format("truetype"); 트루타입 폰트인 경우 */
 }
+
+@font-face {
+    font-family: "soyo";
+    src: url("SOYO\ Maple\ Regular.ttf") format("truetype");
 /* 웹 상의 폰트 파일을 사용하는 경우 */
+}
+
 @font-face {
     font-family: 'RixYeoljeongdo_Regular';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
@@ -45,10 +51,11 @@ header 영역 - 로고, 메인메뉴
 }
 #logo {
     position: absolute;
-    bottom: 16px;
+    bottom: 22px;
     left: 40px;
     font-family: 'RixYeoljeongdo_Regular';
-    font-size: 36px;
+    font-size: 28px;
+    color: #616161;
 }
 #navmenu {
     display: flex;
@@ -59,7 +66,7 @@ header 영역 - 로고, 메인메뉴
 }
 /* #navmenu 요소에 포함된 a 태그 스타일 설정 */
 #navmenu a {
-    margin: 0 10px;
+    margin: 5 10px;
     color: #616161;
 }
 #navmenu a:link {
@@ -74,6 +81,47 @@ header 영역 - 로고, 메인메뉴
 /* -----------------------------------------------------------------------
 본문 영역
 ----------------------------------------------------------------------- */
+#a48{
+    font-weight: bolder;
+    color: #badd69;
+    font-size: 36px;
+font-family: "런드리고딕";
+}
+
+#a49{
+    font-size: 26px;
+    color: #797979;
+    font-family: "런드리고딕";
+}
+
+#a50{
+    font-size: 20px;
+    color: #797979;
+    font-family: "soyo";
+    font-weight: bold;
+}
+
+#a51{
+    font-weight: bolder;
+    color:#badd69;
+    font-size: 36px;
+    font-family: "런드리고딕";
+    
+}
+
+#a52{
+    font-size: 26px;
+    color: #797979;
+    font-family: "런드리고딕";
+    font-weight: bold;
+}
+
+#a53{
+    font-size: 20px;
+    color: #797979;
+    font-family: "soyo";
+    font-weight: bold;
+}
 
 #main-container {
     position: relative;
@@ -84,12 +132,35 @@ header 영역 - 로고, 메인메뉴
     /*background-color: bisque;*/
 }
 #featured-image {
+    display: flex;
     position: relative;
     width: 100%;
 }
 #featured-image img {
-    width: 100%;
+    width: 50%;
 }
+#woman {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgb(255, 252, 225);
+}
+
+#a45{
+    font-size: 20px;
+    color: #616161;
+    font-family: "런드리고딕";
+    text-align: center;
+}
+
+#woman img{
+     width: 50%;
+
+}
+
+
 #main-text {
     position: relative;
     font-family: "Pretendard-Regular";
